@@ -7,3 +7,7 @@
 body{
     height:5000px;
 }
+.auto{
+    width: 78.125%;
+    margin:0 auto;
+}

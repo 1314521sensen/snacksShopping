@@ -137,7 +137,7 @@
   display: flex;
 }
 .header-box .banner-title .classification ul li {
-  width: 18%;
+  width: 23.15%;
   height: 50px;
   margin-right: 34px;
   text-align: center;
@@ -165,7 +165,7 @@
 }
 .header-box .banner-bg .bgImage ul li {
   width: 100%;
-  height: 420px;
+  height: 608px;
 }
 .header-box .banner-bg .bgImage ul li img {
   width: 100%;
@@ -175,6 +175,83 @@
   position: absolute;
   top: 0;
   left: 11%;
-  width: 14%;
+  width: 18%;
   height: 100%;
+}
+.header-box .banner-bg .bannerList ul li {
+  display: flex;
+  height: 75px;
+  background-color: #ff371f;
+  border-bottom: 1px solid #ccc;
+}
+.header-box .banner-bg .bannerList ul li .icon {
+  width: 18%;
+  height: 100%;
+  background: url("../image/icon/01.png") no-repeat 10px 26px;
+  background-size: 26px;
+}
+.header-box .banner-bg .bannerList ul li .bannerList-describe {
+  width: 67%;
+  height: 100%;
+  color: #fff;
+}
+.header-box .banner-bg .bannerList ul li .bannerList-describe p {
+  font-size: 18px;
+  margin: 6px 0 15px 0;
+}
+.header-box .banner-bg .bannerList ul li .bannerList-describe div.list ul {
+  display: flex;
+}
+.header-box .banner-bg .bannerList ul li .bannerList-describe div.list ul li {
+  height: 0;
+  font-size: 12px;
+  margin-right: 12px;
+  border: 0;
+}
+.header-box .banner-bg .bannerList ul li .bannerList-describe div.list ul li:last-child {
+  margin-right: 0;
+}
+.header-box .banner-bg .bannerList ul li .bannerList-describe div.list ul li a {
+  color: #fff;
+}
+.header-box .banner-bg .bannerList ul li .rightarrow {
+  width: 15%;
+  height: 100%;
+  font-size: 32px;
+  color: #fff;
+  text-align: center;
+  line-height: 74px;
+}
+.header-box .rulesBox {
+  margin-bottom: 50px;
+}
+.header-box .rulesBox .rules ul {
+  display: flex;
+  justify-content: space-between;
+}
+.header-box .rulesBox .rules ul li {
+  display: flex;
+  justify-content: space-between;
+  width: 234px;
+  height: 88px;
+}
+.header-box .rulesBox .rules ul li:last-child {
+  margin-right: 0px;
+}
+.header-box .rulesBox .rules ul li .rules-left {
+  width: 36%;
+  height: 100%;
+  background: url("../image/baozhangIcon.png") no-repeat;
+  background-position: -18px -29px;
+}
+.header-box .rulesBox .rules ul li .rules-right p {
+  color: #000;
+}
+.header-box .rulesBox .rules ul li .rules-right p:first-child {
+  font-size: 20px;
+  margin: 15px 0 10px 0;
+}
+.header-box .rulesBox .rules ul li .rules-right p:last-child {
+  font-size: 14px;
+  color: #b8b7b7;
 }

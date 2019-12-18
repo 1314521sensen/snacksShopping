@@ -152,7 +152,7 @@
             ul{
                 display:flex;
                 li{
-                    width:18%;
+                    width:23.15%;
                     height:50px;
                     margin-right:34px;
                     text-align:center;
@@ -180,7 +180,7 @@
                 width: 300%;
                 li{
                     width: 100%;
-                    height:420px;
+                    height:608px;
                     img{
                         width: 100%;
                         height:100%;
@@ -192,8 +192,101 @@
             position: absolute;
             top:0;
             left: 11%;
-            width: 14%;
+            width: 18%;
             height:100%;
+            ul{
+                li{
+                    display:flex;
+                    height:75px;
+                    background-color: @bgcolor;
+                    border-bottom:1px solid #ccc;
+                    .icon{
+                        width: 18%;
+                        height:100%;
+                        // background-color: green;
+                        background: url("../image/icon/01.png") no-repeat 10px 26px;
+                        background-size:26px;
+                    }
+                    .bannerList-describe{
+                        width: 67%;
+                        height:100%;
+                        // background-color:pink;
+                        color:#fff;
+                        p{
+                            font-size: 18px;
+                            margin:6px 0 15px 0;
+                        }
+                        div.list{
+                            ul{
+                                display:flex;
+                                li{
+                                    height:0;
+                                    font-size: 12px;
+                                    margin-right:12px;
+                                    border:0;
+                                    &:last-child{
+                                        margin-right:0;
+                                    }
+                                    a{
+                                        color:#fff;
+                                    }
+                                }
+                            }
+                            
+                        }
+                    }
+                    .rightarrow{
+                        width: 15%;
+                        height:100%;
+                        font-size: 32px;
+                        color:#fff;
+                        text-align:center;
+                        line-height:74px;
+                    }
+                }
+            }
+        }
+    }
+    .rulesBox{
+        margin-bottom: 50px;
+        .rules{
+            // height:50px;
+            // background-color: yellow;
+            ul{
+                display:flex;
+                justify-content:space-between;
+                li{
+                    display:flex;
+                    justify-content:space-between;
+                    width: 234px;
+                    height:88px;
+                    // background-color: purple;
+                    // margin-right:40px;
+                    &:last-child{
+                        margin-right:0px;
+                    }
+                    .rules-left{
+                        width: 36%;
+                        height:100%;
+                        // background-color:pink;
+                        background:url("../image/baozhangIcon.png") no-repeat;
+                        background-position: -18px -29px;
+                    }
+                    .rules-right{
+                        p{
+                            color:#000;
+                            &:first-child{
+                                font-size: 20px;
+                                margin:15px 0 10px 0;
+                            }
+                            &:last-child{
+                                font-size: 14px;
+                                color:rgb(184, 183, 183);
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }
